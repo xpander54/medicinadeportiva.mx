@@ -1,0 +1,282 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="specimen_files/specimen_stylesheet.css" type="text/css" charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="styles.css" />
+<title>Tratatmiento de osteoporosis</title>
+<meta name="description" content="Este esta enfocado a pacientes mayores de 50 años con reporte de osteopenia u osteoporosis, así como también en mujeres quienes han tenido una menopausia prematura o que les han practicado histerectomía a temprana edad.">
+<meta name="keywords" content="menopausia prematura, huesos, densitometria de columna, densitometria de cadera, osteopenia, descalcificacion, tratamiento de fracturas,">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-XVX6"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-XVX6');</script>
+<!-- End Google Tag Manager -->
+<script type="text/javascript" src="jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="jquery.jcarousel.min.js"></script>
+<link rel="stylesheet" type="text/css" href="skin.css" />
+<script type="text/javascript">
+
+function clicked(vidNum)
+{
+	
+	switch(vidNum)
+	{
+		case 1: 
+		
+				document.getElementById("vidTitle").innerHTML = "TRATAMIENTO OSTEOPOROSIS";
+				
+				document.getElementById("vidPlayer").innerHTML = '<iframe width="350" height="250" src="http://www.youtube.com/embed/Usl6FkX8Fl8" frameborder="0" allowfullscreen></iframe>';
+				break;
+		
+		case 2:
+				//alert(vidNum);
+				
+				document.getElementById("vidTitle").innerHTML = "PRIMEROS AUXILIOS; REANIMACIÒN CARDIOPULMONAR";
+				
+				document.getElementById("vidPlayer").innerHTML = '<iframe width="350" height="250" src="http://www.youtube.com/embed/UHe_milOHHA" frameborder="0" allowfullscreen></iframe>'
+								
+				break;
+		
+		case 3:
+				//alert(vidNum);
+				
+				document.getElementById("vidTitle").innerHTML = "Cómo Funciona Twitter";
+				
+				document.getElementById("vidPlayer").innerHTML = '<iframe width="350" height="250" src="http://www.youtube.com/embed/wMUme4Rq2ls" frameborder="0" allowfullscreen></iframe>'
+				
+				break;
+		
+		case 4:
+				//alert(vidNum);
+				
+				document.getElementById("vidTitle").innerHTML = "Defensa Personal";
+				
+				document.getElementById("vidPlayer").innerHTML = '<iframe width="350" height="250" src="http://www.youtube.com/embed/7UGuLLW7CDE" frameborder="0" allowfullscreen></iframe>'
+				
+				
+				
+				break;
+		
+		
+	}
+	
+	
+}
+
+
+jQuery(document).ready(function() {
+    jQuery('#mycarousel').jcarousel({
+    	wrap: 'circular'
+    });
+});
+
+</script>
+</head>
+<script>
+function lnkOver(id, inp)
+{
+	//alert(id);
+	document.getElementById(id).innerHTML = "";
+}
+
+function lnkOut(id, inp)
+{
+	
+	document.getElementById(id).innerHTML = "<img src='imgs/"+inp+".jpg' border='0' id='link'>";
+}
+
+function clicked1(id)
+{
+	if(id == 'index')
+	{
+		//window.open('url to open','window name','attribute1,attribute2');
+		location.replace("inicio.html");
+	}
+	else 	if(id == 't2')
+	{
+		//window.open('url to open','window name','attribute1,attribute2');
+		location.replace("lesiones.html");
+	}
+	else 	if(id == 't3')
+	{
+		//window.open('url to open','window name','attribute1,attribute2');
+		location.replace("padecimientos.html");
+	}
+	else 	if(id == 't4')
+	{
+		//window.open('url to open','window name','attribute1,attribute2');
+		location.replace("tratamientos.html");
+	}
+	else 	if(id == 't5')
+	{
+		//window.open('url to open','window name','attribute1,attribute2');
+		location.replace("cirugia.html");
+	}
+	else 	if(id == 't6')
+	{
+		//window.open('url to open','window name','attribute1,attribute2');
+		location.replace("noticias.html");
+	}
+	else 	if(id == 't7')
+	{
+		//window.open('url to open','window name','attribute1,attribute2');
+		location.replace("lesionrodilla.html");
+	}
+	else 	if(id == 't8')
+	{
+		//window.open('url to open','window name','attribute1,attribute2');
+		location.replace("lesioncadera.html");
+	}
+	else 	if(id == 't9')
+	{
+		//window.open('url to open','window name','attribute1,attribute2');
+		location.replace("lesioncodo.html");
+	}
+	else 	if(id == 't10')
+	{
+		//window.open('url to open','window name','attribute1,attribute2');
+		location.replace("lesionhombro.html");
+	}
+	else 	if(id == 't11')
+	{
+		//window.open('url to open','window name','attribute1,attribute2');
+		location.replace("lesioncolumna.html");
+	}
+	else 	if(id == 'd1')
+	{
+		//window.open('url to open','window name','attribute1,attribute2');
+		location.replace("osteoporosis.html");
+	}
+	else 	if(id == 'd2')
+	{
+		//window.open('url to open','window name','attribute1,attribute2');
+		location.replace("tratamientocolumna.html");
+	}
+	else 	if(id == 'd3')
+	{
+		//window.open('url to open','window name','attribute1,attribute2');
+		location.replace("tratamientosincirugia.html");
+	}
+	else 	if(id == 'd4')
+	{
+		//window.open('url to open','window name','attribute1,attribute2');
+		location.replace("tratamientoconliquido.html");
+	}
+}
+</script>
+
+<body style="background:white;">
+
+<div style="position:absolute; width:250px; height:76px; background:url(imgs/logoleft.jpg);">
+</div>
+
+<!--Menu -->
+<div style="width:745px; height:62px; background:url(imgs/menubk.png); margin:5px auto 0px; position:relative;">
+ <div id="link" style="position:relative; float:left; width:124px; height:72px; background:url(imgs/inicio2.jpg); cursor:pointer;"onmouseover="lnkOver('link', 'inicio2');"onmouseout="lnkOut('link', 'inicio1');" onclick="clicked1('index');">
+    <img src="imgs/inicio1.jpg" border="0" />
+ </div>
+ <div id="link2" style="position:relative; float:left; width:124px; height:72px; background:url(imgs/lesiones2.jpg); cursor:pointer;" onmouseover="lnkOver('link2', 'lesiones2');"onmouseout="lnkOut('link2', 'lesiones1');" onclick="clicked1('t2');">
+    <img src="imgs/lesiones1.jpg" border="0" />
+ </div>
+ <div id="link3" style="position:relative; float:left; width:124px; height:72px; background:url(imgs/padec2.jpg); cursor:pointer;" onmouseover="lnkOver('link3', 'padec2');"onmouseout="lnkOut('link3', 'padec1');" onclick="clicked1('t3');">
+    <img src="imgs/padec1.jpg" border="0" />
+ </div>
+ <div id="link4" style="position:relative; float:left; width:124px; height:72px; background:url(imgs/trat2.jpg);">
+ </div>
+ <div id="link5" style="position:relative; float:left; width:124px; height:72px; background:url(imgs/cirugia2.jpg); cursor:pointer;" onmouseover="lnkOver('link5', 'cirugia2');"onmouseout="lnkOut('link5', 'cirugia1');" onclick="clicked1('t5');">
+    <img src="imgs/cirugia1.jpg" border="0" />
+ </div>
+ <div id="link6" style="position:relative; float:left; width:124px; height:72px; background:url(imgs/noticias2.jpg); cursor:pointer;" onmouseover="lnkOver('link6', 'noticias2');"onmouseout="lnkOut('link6', 'noticias1');" onclick="clicked1('t6');">
+    <img src="imgs/noticias1.jpg" border="0" />
+ </div>
+</div>
+<!--Menu -->
+
+<!--BACKground -->
+<div style="width:100%; height:1050px; background:url(imgs/bodybk3.jpg); bottom:0px; background-position:bottom; background-repeat:repeat-x;">
+
+
+<!--maincont -->
+<div class="maincont" style="margin:0px auto 50px; height:990px; background:url(imgs/bgcontcolumna.png);">
+
+
+ <!--MENUleft lesiones -->
+  <div style="width:50px; height:360px; background:url(imgs/menuleft2.jpg); position:absolute; margin:30px 0px 0px -20px;">
+    <div id="link7" style="width:20px; height:70px; background:url(imgs/osteoporosis2.jpg); cursor:pointer; margin:13px 0px 0px 15px;">
+    </div>
+    <div id="link8" style="width:30px; height:70px; background:url(imgs/column2.jpg); cursor:pointer;  margin:15px 0px 0px 12px;" onmouseover="lnkOver('link8', 'column2');"onmouseout="lnkOut('link8', 'column1');" onclick="clicked1('d2');">
+    <img src="imgs/column1.jpg" border="0" />
+    </div>
+    <div id="link9" style="width:30px; height:70px; background:url(imgs/sinc2.jpg); cursor:pointer;  margin:15px 0px 0px 12px;" onmouseover="lnkOver('link9', 'sinc2');"onmouseout="lnkOut('link9', 'sinc1');" onclick="clicked1('d3');">
+    <img src="imgs/sinc1.jpg" border="0" />
+    </div>
+    <div id="link10" style="width:30px; height:70px; background:url(imgs/conl2.jpg); cursor:pointer;  margin:15px 0px 0px 12px;" onmouseover="lnkOver('link10', 'conl2');"onmouseout="lnkOut('link10', 'conl1');" onclick="clicked1('d4');">
+    <img src="imgs/conl1.jpg" border="0" />
+    </div>
+  </div>
+ <!--//MENUleft lesiones -->
+
+ <!--cont -->
+ <div class="cont" style="height:810px;">
+ 
+  <div style="width:720px; height:250px; background:url(imgs/tratost.jpg); margin:15px 0px 0px 0px;">
+   
+  </div>
+  
+  <div style="width:720px; height:670px; background:none; margin:10px 0px 0px 0px;">
+    <div style="width:350px; height:325px; float:left; background:url(imgs/bgnfoleft2.jpg);">
+    
+     <div id="tittles" style="margin:10px 0px 0px 14px;">
+      <b>Tratamiento de Osteoporosis</b>
+     </div>
+     <div id="txt" style="margin:50px 5px 0px 5px; font-size:15px;">
+     Este esta enfocado a pacientes mayores de 50 años con reporte de osteopenia u osteoporosis, así como también en mujeres quienes han tenido una menopausia prematura o que les han practicado histerectomía a temprana edad, por tal razón, el uso de esta novedoso tratamiento es con la finalidad de fortalecer la resistencia de los huesos, disminuyendo con esto la alta incidencia de fracturas, así mismo, para pacientes con antecedente de dolor no incapacitante, continuo en la espalda (entre las escapulas), es muy posible que se deba a este padecimiento ya que pueden desarrollar microfracturas por fatiga, que inclusive  no son tan valorable en las radiografías de control, pero para esto...  
+     </div>  
+     
+      
+    </div>
+    
+        <div style="width:350px; height:325px; float:right; background:none;">
+        
+          <div style="width:350px; height:325px; background:url(imgs/nfobk.jpg);">
+            <div id="txt" style="margin:15px 5px 0px 5px; font-size:15px; position:absolute; width:340px;">
+              la Densitometría de columna y cadera tiene relevante interés, al ser un estudio con mucho más precisión para determinar el grado de descalcificación que se  presenta y recuerde que la toma de Calcio vía oral no se fijara si no se considera el medicamento necesario para la buena penetración y utilización de este mineral, sin tener el riesgo de  desarrollar cálculos en las vías urinarias o calcificaciones en rodillas.
+            </div>
+            <div id="txt" style="margin:145px 5px 0px 5px; font-size:15px; position:absolute; width:340px; height:170px; background:url(imgs2/rucos.jpg);">
+            
+            </div>
+          </div>
+          
+        </div>
+        
+     <!--video -->   
+     <div style="width:720px; height:340px; background:url(imgs/nfobk.jpg); margin:330px 0px 0px 0px; position:absolute; left:0px;">
+      <div style="position:absolute; margin:1px 0px 0px 80px;">
+       <iframe width="558" height="339" src="http://www.youtube.com/embed/6VRp_YMAp-M" frameborder="0" allowfullscreen></iframe>
+      </div>
+     </div>
+     <!--video -->
+   
+   </div>
+   
+   
+   
+ </div>
+ <!--//cont -->
+ 
+ <!--CV -->
+ 
+ <!--//CV -->
+ 
+</div>
+<!--//maincont -->
+
+</div>
+<!--//BACKground -->
+</body>
+</html>

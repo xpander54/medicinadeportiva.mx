@@ -1,0 +1,390 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="specimen_files/specimen_stylesheet.css" type="text/css" charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="styles.css" />
+<title>Tratamiento de columna con cirugia</title>
+<meta name="description" content="La cirugía vertebral es para los casos donde no hay mejoría mediante tratamientos conservadores (medicamentos, ejercicios, fajas, rehabilitación, infiltraciones, ozono, etc.) o de mínima invasión (Nucleoplastía con radiofrecuencia, ozono o esteroide intra-discal)">
+<meta name="keywords" content="cirugia vertebral, lesion columna, deslizamiento de vertebras, nucleoplastia, columna, tratamiento de fracturas,">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-XVX6"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-XVX6');</script>
+<!-- End Google Tag Manager -->
+<link rel="stylesheet" type="text/css" href="shadowbox.css">
+<script type="text/javascript" src="shadowbox.js"></script>
+<script type="text/javascript">
+Shadowbox.init({
+   player: "html"
+});
+
+function clicked(vid)
+{
+	
+	switch(vid)
+	{
+		case 1: 
+		
+				document.getElementById("sb-title-inner").innerHTML = "Video 1";
+				document.getElementById("vidPlayer").innerHTML = '<iframe width="360" height="250" src="http://www.youtube.com/embed/B8XfjNm1l8I" frameborder="0" allowfullscreen></iframe>';
+				break;
+		
+		case 2:
+				//alert(vidNum);
+				
+				document.getElementById("sb-title-inner").innerHTML = "Video 2";
+				
+				document.getElementById("vidPlayer").innerHTML = '<iframe width="360" height="250" src="http://www.youtube.com/embed/5uhbrAuiXPY" frameborder="0" allowfullscreen></iframe></iframe>'
+								
+				break;
+		
+		case 3:
+				//alert(vidNum);
+				
+				document.getElementById("sb-title-inner").innerHTML = "Video 3";
+				
+				document.getElementById("vidPlayer").innerHTML = '<iframe width="360" height="250" src="http://www.youtube.com/embed/a_gpDIBuZmc" frameborder="0" allowfullscreen></iframe>';
+				
+				break;
+		
+		case 4:
+				//alert(vidNum);
+				
+				document.getElementById("sb-title-inner").innerHTML = "Video 4";
+				
+				document.getElementById("vidPlayer").innerHTML = '<iframe width="360" height="250" src="http://www.youtube.com/embed/XoiS94S39z0" frameborder="0" allowfullscreen></iframe>';
+				
+				break;
+		
+		case 5:
+				//alert(vidNum);
+				
+				document.getElementById("sb-title-inner").innerHTML = "Video 5";
+				
+				document.getElementById("vidPlayer").innerHTML = '<iframe width="360" height="250" src="http://www.youtube.com/embed/IOF6pw7TYNk" frameborder="0" allowfullscreen></iframe>';
+				
+				break;
+				
+		case 6:
+				alert(vidNum);
+				
+				document.getElementById("sb-title-inner").innerHTML = "Video 6";
+				
+				break;
+				
+		case 7:
+				alert(vidNum);
+				
+				document.getElementById("sb-title-inner").innerHTML = "Video 7";
+				
+				break;
+		
+	}
+	
+
+}
+
+function startScroll()
+{
+	
+	jQuery('#mycarousel').jcarousel({
+    	wrap: 'circular'
+    });
+}
+
+
+function openBox()
+{
+	    // open a welcome message as soon as the window loads
+	    // open a welcome message as soon as the window loads
+    Shadowbox.open({
+        content:   '<div style=" height:186px; background:url(imgs/vids2.gif); padding:40px 0px 0px 0px; margin:-35px auto;" id="vidPlayer"></div><div id="wrap" class="wrap"><ul id="mycarousel" class="jcarousel-skin-tango"><li><img src="http://img.youtube.com/vi/B8XfjNm1l8I/2.jpg" width="75" height="75" alt="" onclick="clicked(1)" /></li><li><img src="http://img.youtube.com/vi/5uhbrAuiXPY/2.jpg" width="75" height="75" alt="" onclick="clicked(2)" /></li></ul></div>' ,
+        player:     "html",
+        title:      "Eliga un video",
+        height:     360,
+        width:      360,
+		gallery: "tratamiento" 
+		
+    });
+	
+}
+
+function clicked1(id)
+{
+	if(id == 'index')
+	{
+		//window.open('url to open','window name','attribute1,attribute2');
+		location.replace("inicio.html");
+	}
+	else 	if(id == 't2')
+	{
+		//window.open('url to open','window name','attribute1,attribute2');
+		location.replace("lesiones.html");
+	}
+	else 	if(id == 't3')
+	{
+		//window.open('url to open','window name','attribute1,attribute2');
+		location.replace("padecimientos.html");
+	}
+	else 	if(id == 't4')
+	{
+		//window.open('url to open','window name','attribute1,attribute2');
+		location.replace("tratamientos.html");
+	}
+	else 	if(id == 't5')
+	{
+		//window.open('url to open','window name','attribute1,attribute2');
+		location.replace("cirugia.html");
+	}
+	else 	if(id == 't6')
+	{
+		//window.open('url to open','window name','attribute1,attribute2');
+		location.replace("noticias.html");
+	}
+	else 	if(id == 't7')
+	{
+		//window.open('url to open','window name','attribute1,attribute2');
+		location.replace("lesionrodilla.html");
+	}
+	else 	if(id == 't8')
+	{
+		//window.open('url to open','window name','attribute1,attribute2');
+		location.replace("lesioncadera.html");
+	}
+	else 	if(id == 't9')
+	{
+		//window.open('url to open','window name','attribute1,attribute2');
+		location.replace("lesioncodo.html");
+	}
+	else 	if(id == 't10')
+	{
+		//window.open('url to open','window name','attribute1,attribute2');
+		location.replace("lesionhombro.html");
+	}
+	else 	if(id == 't11')
+	{
+		//window.open('url to open','window name','attribute1,attribute2');
+		location.replace("lesioncolumna.html");
+	}
+	
+	else 	if(id == 'd2')
+	{
+		//window.open('url to open','window name','attribute1,attribute2');
+		location.replace("tratamientocolumna.html");
+	}
+	else 	if(id == 'd3')
+	{
+		//window.open('url to open','window name','attribute1,attribute2');
+		location.replace("tratamientosincirugia.html");
+	}
+	else 	if(id == 'd4')
+	{
+		//window.open('url to open','window name','attribute1,attribute2');
+		location.replace("tratamientoconliquido.html");
+	}
+}
+
+function callMe() {
+
+
+	openBox();
+	
+	var timer1 = setTimeout(timer, 1100);
+ 	clearTimeout(timerID);
+	
+	function timer ()
+	{
+	//alert("timer end");
+	startScroll();
+	}
+	
+};
+
+
+
+
+
+
+
+
+
+
+</script>
+
+<script type="text/javascript" src="jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="jquery.jcarousel.min.js"></script>
+<link rel="stylesheet" type="text/css" href="skin2.css" />
+</head>
+<script>
+function lnkOver(id, inp)
+{
+	//alert(id);
+	document.getElementById(id).innerHTML = "";
+}
+
+function lnkOut(id, inp)
+{
+	
+	document.getElementById(id).innerHTML = "<img src='imgs/"+inp+".jpg' border='0' id='link'>";
+}
+
+</script>
+
+<body style="background:white;">
+
+<div style="position:absolute; width:250px; height:76px; background:url(imgs/logoleft.jpg);">
+</div>
+
+<!--Menu -->
+<div style="width:745px; height:62px; background:url(imgs/menubk.png); margin:5px auto 0px; position:relative;">
+ <div id="link" style="position:relative; float:left; width:124px; height:72px; background:url(imgs/inicio2.jpg); cursor:pointer;"onmouseover="lnkOver('link', 'inicio2');"onmouseout="lnkOut('link', 'inicio1');" onclick="clicked1('index');">
+    <img src="imgs/inicio1.jpg" border="0" />
+ </div>
+ <div id="link2" style="position:relative; float:left; width:124px; height:72px; background:url(imgs/lesiones2.jpg); cursor:pointer;" onmouseover="lnkOver('link2', 'lesiones2');"onmouseout="lnkOut('link2', 'lesiones1');" onclick="clicked1('t2');">
+    <img src="imgs/lesiones1.jpg" border="0" />
+ </div>
+  <div id="link3" style="position:relative; float:left; width:124px; height:72px; background:url(imgs/padec2.jpg); cursor:pointer;" onmouseover="lnkOver('link3', 'padec2');"onmouseout="lnkOut('link3', 'padec1');" onclick="clicked1('t3');">
+    <img src="imgs/padec1.jpg" border="0" />
+ </div>
+ <div id="link4" style="position:relative; float:left; width:124px; height:72px; background:url(imgs/trat2.jpg);">
+ </div>
+ <div id="link5" style="position:relative; float:left; width:124px; height:72px; background:url(imgs/cirugia2.jpg); cursor:pointer;" onmouseover="lnkOver('link5', 'cirugia2');"onmouseout="lnkOut('link5', 'cirugia1');" onclick="clicked1('t5');">
+    <img src="imgs/cirugia1.jpg" border="0" />
+ </div>
+ <div id="link6" style="position:relative; float:left; width:124px; height:72px; background:url(imgs/noticias2.jpg); cursor:pointer;" onmouseover="lnkOver('link6', 'noticias2');"onmouseout="lnkOut('link6', 'noticias1');" onclick="clicked1('t6');">
+    <img src="imgs/noticias1.jpg" border="0" />
+ </div>
+</div>
+<!--Menu -->
+
+<!--BACKground -->
+<div style="width:100%; height:1050px; background:url(imgs/bodybk3.jpg); bottom:0px; background-position:bottom; background-repeat:repeat-x;">
+
+
+<!--maincont -->
+<div class="maincont" style="margin:0px auto 50px; height:990px; background:url(imgs/bgcontcolumna.png);">
+
+
+ <!--MENUleft lesiones -->
+  <div style="width:50px; height:360px; background:url(imgs/menuleft3.jpg); position:absolute; margin:30px 0px 0px -20px;">
+    <div id="link7" style="width:20px; height:70px; background:url(imgs/osteoporosis2.jpg); cursor:pointer; margin:13px 0px 0px 15px; cursor:pointer;" onmouseover="lnkOver('link7', 'osteoporosis2');"onmouseout="lnkOut('link7', 'osteoporosis1');" onclick="clicked1('t4');">
+    <img src="imgs/osteoporosis1.jpg" border="0" />
+    </div>
+    <div id="link8" style="width:30px; height:70px; background:url(imgs/column3.jpg); margin:15px 0px 0px 12px;">
+    </div>
+    <div id="link9" style="width:30px; height:70px; background:url(imgs/sinc2.jpg); cursor:pointer;  margin:15px 0px 0px 12px;" onmouseover="lnkOver('link9', 'sinc2');"onmouseout="lnkOut('link9', 'sinc1');" onclick="clicked1('d3');">
+    <img src="imgs/sinc1.jpg" border="0" />
+    </div>
+    <div id="link10" style="width:30px; height:70px; background:url(imgs/conl2.jpg); cursor:pointer;  margin:15px 0px 0px 12px;" onmouseover="lnkOver('link10', 'conl2');"onmouseout="lnkOut('link10', 'conl1');" onclick="clicked1('d4');">
+    <img src="imgs/conl1.jpg" border="0" />
+    </div>
+  </div>
+ <!--//MENUleft lesiones -->
+
+ <!--cont -->
+ <div class="cont" style="height:810px;">
+ 
+  <div style="width:720px; height:250px; background:url(imgs/tratcol.jpg); margin:15px 0px 0px 0px;">
+   
+   
+  </div>
+  
+  <div style="width:720px; height:670px; background:none; margin:10px 0px 0px 0px;">
+    <div style="width:350px; height:665px; float:left; background:url(imgs/bgnfoleft2.jpg);">
+    
+     <div id="tittles" style="margin:10px 0px 0px 14px; text-decoration:underline;">
+      <b>Tratamiento de columna con cirugía</b>
+     </div>
+     <div id="txt" style="margin:5px 5px 0px 14px; font-size:14px; color:#3C8BC3;">
+       
+     </div>
+     
+     <div id="txt" style="margin:70px 15px 0px 15px; font-size:14px;">
+      La cirugía vertebral es para los casos donde no hay mejoría mediante tratamientos conservadores  (medicamentos, ejercicios, fajas, rehabilitación, infiltraciones, ozono, etc.) o de mínima invasión (Nucleoplastía con radiofrecuencia, ozono o esteroide intra-discal) así como también, para aquellos donde el padecimiento es derivado de un accidente de alto  impacto (accidentes de tránsito, caídas, etc.), esfuerzo intenso o movimiento brusco que ha conllevado a lesión de alguna estructuras (ejem: vertebra, disco, ligamento) o cuando se tiene demasiado cerrado el canal vertebral producto del proceso degenerativo en los pacientes Adultos Mayores.
+Así mismo, deberá hacerse un diagnostico preciso avalado por estudios de gabinete que permitan corroborar el padecimiento para tener un resultado favorable, ya que actualmente se cuenta con varios medios que permiten darle una fijación estable a la columna, evitando con esto tiempos prolongados de recuperación, así como también, sustitutos protésicos de disco e implantes que  van dirigidos a la protección del mismo. Por otra parte, la recomendación posoperatoria será en estricto apego al cirujano ortopédico de columna, ya que un alto porcentaje de recidiva se debe  a la poca información que el paciente tiene después de este tipo de cirugía, así que:
+     </div>  
+     
+     <div id="txt" style="margin:15px 15px 0px 15px; font-size:14px; font-weight:bold; text-align:center;">
+       “Si usted ha tenido o tiene episodios intermitentes de dolor lumbar, es  momento de  realizarse una evaluación de columna, para que de requerirlo, inicie inmediatamente un tratamiento de  protección y evitar secuelas futuras”.
+     </div>
+     
+     <div id="tittles" style="margin:20px 0px 0px 230px; position:absolute;" onclick="callMe()">
+      <a href="#">Ver videos</a>
+
+      <a rel="shadowbox[tratamiento];" href="gal3/1.jpg"></a>
+      <a rel="shadowbox[tratamiento];" href="gal3/2.jpg"></a>
+      <a rel="shadowbox[tratamiento];" href="gal3/3.jpg"></a>
+      <a rel="shadowbox[tratamiento];" href="gal3/4.jpg"></a>
+      <a rel="shadowbox[tratamiento];" href="gal3/5.jpg"></a>
+      <a rel="shadowbox[tratamiento];" href="gal3/6.jpg"></a>
+      <a rel="shadowbox[tratamiento];" href="gal3/7.jpg"></a>
+      <a rel="shadowbox[tratamiento];" href="gal3/8.jpg"></a>
+      <a rel="shadowbox[tratamiento];" href="gal3/9.jpg"></a>
+      <a rel="shadowbox[tratamiento];" href="gal3/10.jpg"></a>
+      <a rel="shadowbox[tratamiento];" href="gal3/11.jpg"></a>
+      <a rel="shadowbox[tratamiento];" href="gal3/12.jpg"></a>
+      <a rel="shadowbox[tratamiento];" href="gal3/13.jpg"></a>
+      <a rel="shadowbox[tratamiento];" href="gal3/14.jpg"></a>
+      <a rel="shadowbox[tratamiento];" href="gal3/15.jpg"></a>
+      <a rel="shadowbox[tratamiento];" href="gal3/16.jpg"></a>
+      <a rel="shadowbox[tratamiento];" href="gal3/17.jpg"></a>
+      <a rel="shadowbox[tratamiento];" href="gal3/18.jpg"></a>
+      <a rel="shadowbox[tratamiento];" href="gal3/19.jpg"></a>
+      <a rel="shadowbox[tratamiento];" href="gal3/20.jpg"></a>
+      <a rel="shadowbox[tratamiento];" href="gal3/21.jpg"></a>
+      <a rel="shadowbox[tratamiento];" href="gal3/22.jpg"></a>
+      <a rel="shadowbox[tratamiento];" href="gal3/23.jpg"></a>
+      <a rel="shadowbox[tratamiento];" href="gal3/24.jpg"></a>
+      <a rel="shadowbox[tratamiento];" href="gal3/25.jpg"></a>
+      <a rel="shadowbox[tratamiento];" href="gal3/26.jpg"></a>
+      <a rel="shadowbox[tratamiento];" href="gal3/27.jpg"></a>
+      <a rel="shadowbox[tratamiento];" href="gal3/28.jpg"></a>
+      
+     </div>
+    
+      
+    </div>
+    
+        <div style="width:350px; height:665px; float:right; background:none;">
+        
+          <div style="width:350px; height:325px; background:url(imgs/nfobk.jpg);">
+            <div style="width:250px; height:325px; background:url(imgs/colpic1.jpg); float:left;">
+            </div>
+            <div id="txt" style="font-size:13px; float:right; width:90px; margin:200px 5px 0px 0px; text-align:left;">
+              Observe el deslizamiento de la vertebra en paciente de  58 años con antecedente de caída de sentón y  dolor intenso.
+            </div>
+          </div>
+          
+          <div style="width:350px; height:325px; background:url(imgs/nfobk.jpg); margin:15px 0px 0px 0px;">
+             <div style="width:250px; height:325px; background:url(imgs/colpic2.jpg); float:left;">
+            </div>
+            <div id="txt" style="font-size:13px; float:right; width:90px; margin:220px 5px 0px 0px; text-align:left;">
+             Misma paciente sometida a cirugía de fijación con sistema rígido de columna.
+            </div>
+          </div>
+          
+        </div>
+    
+   
+   
+   </div>
+      
+ </div>
+ <!--//cont -->
+ 
+ <!--CV -->
+ 
+ <!--//CV -->
+ 
+</div>
+<!--//maincont -->
+
+</div>
+<!--//BACKground -->
+</body>
+</html>

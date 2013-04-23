@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="styles.css" />
+<title>Traumatología Deportiva Ortopedia y Cirugía Articular</title>
+<meta name="description" content="Ortopedia, Traumatología Deportiva, Cirugía Articular y de Columna.">
+<meta name="keywords" content="doctor deportivo, lesion hombro, lesion codo, lesion cadera, protesis de cadera, cirugia articular, tratamiento de fracturas,">
+
+
+
+
+
+
+</head>
+<script>
+function lnkOver(id, inp)
+{
+	//alert(id);
+	document.getElementById(id).innerHTML = "";
+}
+
+function lnkOut(id, inp)
+{
+	
+	document.getElementById(id).innerHTML = "<img src='imgs/"+inp+".jpg' border='0' id='link'>";
+}
+
+function clicked(id)
+{
+	if(id == 'index')
+	{
+		//window.open('url to open','window name','attribute1,attribute2');
+		location.replace("inicio.html");
+	}
+	else 	if(id == 't1')
+	{
+		//window.open('url to open','window name','attribute1,attribute2');
+		location.replace("http://www.twitter.com/donaARTE");
+	}
+}
+</script>
+
+<body>
+
+  <!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-XVX6"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-XVX6');</script>
+<!-- End Google Tag Manager -->
+
+<div style="width:100%; height:600px; background:url(imgs/bodybk.jpg); bottom:0px; position:absolute;">
+</div>
+<!--maincont -->
+<div class="maincont">
+
+ <!--cont -->
+ <div class="cont">
+ 
+  <div style="width:720px; height:300px; background:url(imgs/topcontbk.png); background-position:0 0 0 20px;">
+   <div style="float:left; width:250px; height:300px; background:none;">
+    <div style="width:249px; height:100px; background:url(imgs/logo.jpg); margin:100px 0px 0px 1px;">
+    </div>
+   </div>
+   <div style="float:right; width:468px; height:297px; background:url(imgs/index.png); margin:1px 1px 0px 0px;">
+       <object width="468" height="297">
+        <param name="movie" value="index.swf">
+        <embed src="index.swf" width="468" height="297">
+        </embed>
+       </object>
+    
+   </div>
+  </div>
+  
+  <div style="width:720px; height:168px; background:url(imgs/bttm.png);">
+   <div id="link" style="width:90px; height:25px; position:absolute; margin:110px 0px 0px 625px; background:url(imgs/entar2.jpg); cursor:pointer;" onmouseover="lnkOver('link', 'entar2');" onmouseout="lnkOut('link', 'entar');" onclick="clicked('index');">
+    <img src="imgs/entar.jpg" border="0" />
+   </div>
+  </div>
+  
+ </div>
+ <!--//cont -->
+ 
+</div>
+<!--//maincont -->
+
+
+
+</body>
+</html>

@@ -1,0 +1,258 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="specimen_files/specimen_stylesheet.css" type="text/css" charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="styles.css" />
+<title>Noticias de lesiones deportivas</title>
+<meta name="description" content="Videos de noticias deportivas">
+<meta name="keywords" content="proceso degenerativo, protesis de rodilla, protesis de cadera, pacientes mayores, reemplazo de cadera, liquido sinovial, artritis reumatoide, lesiones">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-XVX6"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-XVX6');</script>
+<!-- End Google Tag Manager -->
+<script type="text/javascript" src="jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="jquery.jcarousel.min.js"></script>
+<link rel="stylesheet" type="text/css" href="skin.css" />
+<script type="text/javascript">
+
+function clicked(vidNum)
+{
+	
+	switch(vidNum)
+	{
+		case 1:
+				//alert(vidNum);
+				
+				document.getElementById("vidTitle").innerHTML = "";
+				
+				document.getElementById("vidPlayer").innerHTML = '<iframe width="450" height="310" src="http://www.youtube.com/embed/xMYjfb_M9wM" frameborder="0" allowfullscreen></iframe>'
+								
+				break;
+				
+		case 2:
+				//alert(vidNum);
+				
+				document.getElementById("vidTitle").innerHTML = "5 worst injuries";
+				
+				document.getElementById("vidPlayer").innerHTML = '<iframe width="450" height="310" src="http://www.youtube.com/embed/BH5bUMeDqOU" frameborder="0" allowfullscreen></iframe>'
+								
+				break;
+		
+		case 3:
+				//alert(vidNum);
+				
+				document.getElementById("vidTitle").innerHTML = "Worst Injury";
+				
+				document.getElementById("vidPlayer").innerHTML = '<iframe width="450" height="310" src="http://www.youtube.com/embed/eJ4-SXp9Qt0" frameborder="0" allowfullscreen></iframe>'
+				
+				break;
+				
+		case 4:
+				//alert(vidNum);
+				
+				document.getElementById("vidTitle").innerHTML = "Lesiones";
+				
+				document.getElementById("vidPlayer").innerHTML = '<iframe width="450" height="310" src="http://www.youtube.com/embed/cUpQ9ggIWiY" frameborder="0" allowfullscreen></iframe>'
+				
+				break;
+				
+		case 5:
+				//alert(vidNum);
+				
+				document.getElementById("vidTitle").innerHTML = "Lesiones";
+				
+				document.getElementById("vidPlayer").innerHTML = '<iframe width="450" height="310" src="http://www.youtube.com/embed/NXWjPhGqELU" frameborder="0" allowfullscreen></iframe>'
+				
+				break;
+				
+	    case 6:
+				//alert(vidNum);
+				
+				document.getElementById("vidTitle").innerHTML = "Lesiones";
+				
+				document.getElementById("vidPlayer").innerHTML = '<iframe width="450" height="310" src="http://www.youtube.com/embed/HPUjmoxvni0" frameborder="0" allowfullscreen></iframe>'
+				
+				break;
+				
+		case 7:
+				//alert(vidNum);
+				
+				document.getElementById("vidTitle").innerHTML = "Golpes violentos";
+				
+				document.getElementById("vidPlayer").innerHTML = '<iframe width="450" height="310" src="http://www.youtube.com/embed/tcX1inRKzTU" frameborder="0" allowfullscreen></iframe>'
+				
+				break;
+				
+		case 8:
+				//alert(vidNum);
+				
+				document.getElementById("vidTitle").innerHTML = "Lesión tennis";
+				
+				document.getElementById("vidPlayer").innerHTML = '<iframe width="450" height="310" src="http://www.youtube.com/embed/WcG0RylJ8yE" frameborder="0" allowfullscreen></iframe>'
+				
+				break;
+		
+	}
+	
+	
+	
+	
+}
+
+
+jQuery(document).ready(function() {
+    jQuery('#mycarousel').jcarousel({
+    	wrap: 'circular'
+    });
+});
+
+</script>
+</head>
+<script>
+function lnkOver(id, inp)
+{
+	//alert(id);
+	document.getElementById(id).innerHTML = "";
+}
+
+function lnkOut(id, inp)
+{
+	
+	document.getElementById(id).innerHTML = "<img src='imgs/"+inp+".jpg' border='0' id='link'>";
+}
+
+function clicked1(id)
+{
+	if(id == 'index')
+	{
+		//window.open('url to open','window name','attribute1,attribute2');
+		location.replace("inicio.html");
+	}
+	else 	if(id == 't2')
+	{
+		//window.open('url to open','window name','attribute1,attribute2');
+		location.replace("lesiones.html");
+	}
+	else 	if(id == 't3')
+	{
+		//window.open('url to open','window name','attribute1,attribute2');
+		location.replace("padecimientos.html");
+	}
+	else 	if(id == 't4')
+	{
+		//window.open('url to open','window name','attribute1,attribute2');
+		location.replace("tratamientos.html");
+	}
+	else 	if(id == 't5')
+	{
+		//window.open('url to open','window name','attribute1,attribute2');
+		location.replace("cirugia.html");
+	}
+	else 	if(id == 't6')
+	{
+		//window.open('url to open','window name','attribute1,attribute2');
+		location.replace("noticias.html");
+	}
+	else 	if(id == 't7')
+	{
+		//window.open('url to open','window name','attribute1,attribute2');
+		location.replace("curriculum.html");
+	}
+}
+</script>
+
+<body style="background:white;">
+
+<div style="position:absolute; width:250px; height:76px; background:url(imgs/logoleft.jpg);">
+</div>
+
+<!--Menu -->
+<div style="width:745px; height:62px; background:url(imgs/menubk.png); margin:5px auto 0px; position:relative;">
+ <div id="link" style="position:relative; float:left; width:124px; height:72px; background:url(imgs/inicio2.jpg); cursor:pointer;"onmouseover="lnkOver('link', 'inicio2');"onmouseout="lnkOut('link', 'inicio1');" onclick="clicked1('index');">
+    <img src="imgs/inicio1.jpg" border="0" />
+ </div>
+ <div id="link2" style="position:relative; float:left; width:124px; height:72px; background:url(imgs/lesiones2.jpg); cursor:pointer;" onmouseover="lnkOver('link2', 'lesiones2');"onmouseout="lnkOut('link2', 'lesiones1');" onclick="clicked1('t2');">
+    <img src="imgs/lesiones1.jpg" border="0" />
+ </div>
+ <div id="link3" style="position:relative; float:left; width:124px; height:72px; background:url(imgs/padec2.jpg); cursor:pointer;" onmouseover="lnkOver('link3', 'padec2');"onmouseout="lnkOut('link3', 'padec1');" onclick="clicked1('t3');">
+    <img src="imgs/padec1.jpg" border="0" />
+ </div>
+ <div id="link4" style="position:relative; float:left; width:124px; height:72px; background:url(imgs/trat2.jpg); cursor:pointer;" onmouseover="lnkOver('link4', 'trat2');"onmouseout="lnkOut('link4', 'trat1');" onclick="clicked1('t4');">
+    <img src="imgs/trat1.jpg" border="0" />
+ </div>
+ <div id="link5" style="position:relative; float:left; width:124px; height:72px; background:url(imgs/cirugia2.jpg); cursor:pointer;" onmouseover="lnkOver('link5', 'cirugia2');"onmouseout="lnkOut('link5', 'cirugia1');" onclick="clicked1('t5');">
+    <img src="imgs/cirugia1.jpg" border="0" />
+ </div>
+ <div id="link6" style="position:relative; float:left; width:124px; height:72px; background:url(imgs/noticias2.jpg);">
+ </div>
+</div>
+<!--Menu -->
+
+<!--BACKground -->
+<div style="width:100%; height:750px; background:url(imgs/bodybk2.jpg); bottom:0px; background-position:bottom;">
+
+
+
+<!--maincont -->
+<div class="maincont" style="margin:0px auto 50px; height:650px; background:url(imgs/homebk.png);">
+
+ <!--cont -->
+ <div class="cont" style="height:610px;">
+ 
+      <div style="width:720px; height:580px; background:url(imgs/nfobk.jpg); margin:15px 0px 0px 0px; position:absolute;">
+            <div style="width:450px; height:310px; background:none; margin:0px 0px 0px 140px; position:absolute;">
+
+                    <div style="font-size:18px; margin:0 auto; width:350px; height:50px; font-family:GillSansMTRegular; color:#007AA9; text-align:center;" id="vidTitle">
+                    
+                    VIDEOS-NOTICIAS
+                    
+                    </div>
+                               <br />
+
+                    <div style="width:450px; height:310px; margin:0px 0px 0px 0px; background:url(imgs/videonoticias.jpg);" id="vidPlayer">
+                    </div>
+    
+         	  </div>
+      
+      
+       				 <div id="wrap" style="position:absolute; margin:400px 0px 0px 210px;">
+                     
+                    
+                     
+                    
+                      <ul id="mycarousel" class="jcarousel-skin-tango">
+                        <li><img src="http://img.youtube.com/vi/xMYjfb_M9wM/2.jpg" width="75" height="75" alt="" onclick="clicked(1)" /></li>
+                        <li><img src="http://img.youtube.com/vi/BH5bUMeDqOU/2.jpg" width="75" height="75" alt="" onclick="clicked(2)" /></li>
+                        <li><img src="http://img.youtube.com/vi/eJ4-SXp9Qt0/2.jpg" width="75" height="75" alt="" onclick="clicked(3)" /></li>
+                        <li><img src="http://img.youtube.com/vi/cUpQ9ggIWiY/2.jpg" width="75" height="75" alt="" onclick="clicked(4)" /></li>
+                        <li><img src="http://img.youtube.com/vi/NXWjPhGqELU/2.jpg" width="75" height="75" alt="" onclick="clicked(5)" /></li>
+                        <li><img src="http://img.youtube.com/vi/HPUjmoxvni0/2.jpg" width="75" height="75" alt="" onclick="clicked(6)" /></li>
+                        <li><img src="http://img.youtube.com/vi/tcX1inRKzTU/2.jpg" width="75" height="75" alt="" onclick="clicked(7)" /></li>
+                        <li><img src="http://img.youtube.com/vi/WcG0RylJ8yE/2.jpg" width="75" height="75" alt="" onclick="clicked(8)" /></li>
+                      </ul>
+                      
+                
+                
+                
+         			 </div>
+      </div>
+ </div>
+ <!--//cont -->
+ 
+ <!--CV -->
+ 
+ <!--//CV -->
+ 
+</div>
+<!--//maincont -->
+
+</div>
+<!--//BACKground -->
+</body>
+</html>
